@@ -32,7 +32,7 @@ public class P_Attack : MonoBehaviour
         {
             if (target.CompareTag("Enemy"))
             {
-                target.GetComponent<EnemyBase>().Hit(this.transform.position, 50);
+                //target.GetComponent<BossAi>().Hit(0.1f);
             }
         }
     }

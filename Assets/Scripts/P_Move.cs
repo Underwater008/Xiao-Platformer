@@ -17,13 +17,20 @@ public class P_Move : MonoBehaviour
 
     public GameObject centerPos;
 
-    // Update is called once per frame
     void Update()
     {
         if(Input.GetKeyDown(KeyCode.C))
         {
             Hit();
         }
+
+        //≥‘“©
+        if (Input.GetKeyDown(KeyCode.R))
+        {
+            Recovery();
+        }
+
+
 
         if (isAttacking)
         {
@@ -60,7 +67,8 @@ public class P_Move : MonoBehaviour
 
         //left is right, right is left
         float _rightBoundary = -7f;
-        float _leftBoundary = 60f;
+        //float _leftBoundary = 60f;
+        float _leftBoundary = 171f;
 
         if (transform.position.x <= _rightBoundary)
         {
@@ -93,6 +101,19 @@ public class P_Move : MonoBehaviour
         }
     }
 
+    //ª÷∏¥
+    public void Recovery(int damage = 30)
+    {
+        health += damage;
+
+        if (health >= 100)
+        {
+            health = 100;
+        }
+
+        imgHealth.fillAmount = (float)health / (float)100;
+    }
+
     public void Dead()
     {
         foreach (var obj in hideObj)
@@ -106,5 +127,18 @@ public class P_Move : MonoBehaviour
     public void LoadScene()
     {
         SceneManager.LoadScene("SampleScene");
+    }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        switch (collision.gameObject.tag)
+        {
+            case "recoveryItem":
+                Recovery();
+                Destroy(collision.gameObject);
+                break; 
+            default:
+                break;
+        }
     }
 }
