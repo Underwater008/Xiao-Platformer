@@ -1,0 +1,11 @@
+fileFormatVersion: 2
+guid: efb715b2633cd0a4596a4183b205ac86
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures:
+  - _UVDistortNoiseTexture: {fileID: 2800000, guid: cd21d0de17dcd734691f79979be13330,
+      type: 3}
+  nonModifiableTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

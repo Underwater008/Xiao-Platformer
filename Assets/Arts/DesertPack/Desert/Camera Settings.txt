@@ -1,0 +1,180 @@
+2D Desert Pack
+
+
+Camera effects (Component/Image Effects):
+In order to set effects on camera properly, you need to import
+package Standart Assets, here is download link: 
+https://www.assetstore.unity3d.com/en/#!/content/83913
+
+
+--------------------------
+scene_01
+
+1. Bloom
+Quality: Hight
+Mode: Basic
+Blend: Add
+HDR: Auto
+Intensity: 0.5
+Threshold: 0.6
+Blur Iterations: 2
+Sample Distance: 2.5
+
+2. Bloom Optimazed
+Treshold: 0.11
+Intensity: 0.13
+Blur Size: 2.19
+Blur Iterations: 2
+Blur Type: Standard
+Fast Bloom Shader Hidden/FastBloom
+
+3. Vignette And Chromatic Aberration
+Vignetting: 0.183
+Blurred Corners: 0
+Aberation: Simple
+Chromatic Aberration: 0.2
+
+--------------------------
+scene_02
+
+1. Bloom
+Quality: Hight
+Mode: Basic
+Blend: Add
+HDR: Auto
+Intensity: 0.5
+Threshold: 0.6
+Blur Iterations: 2
+Sample Distance: 2.5
+
+2. Bloom Optimazed
+Treshold: 0.11
+Intensity: 0.13
+Blur Size: 3.62
+Blur Iterations: 2
+Blur Type: Standard
+Fast Bloom Shader Hidden/FastBloom
+
+3. Vignette And Chromatic Aberration
+Vignetting: 0.297
+Blurred Corners: 0
+Aberation: Simple
+Chromatic Aberration: 0.2
+
+4. Bloom
+Quality: Hight
+Mode: Basic
+Blend: Add
+HDR: Auto
+Intensity: 0.48
+Threshold: 0.67
+Blur Iterations: 1
+Sample Distance: 0.44
+
+5. Bloom And Flares
+Tweak mode: Basic
+Blend mode: Add
+HDR: Auto
+Intensity: 0.4
+Treshold: 0.14
+Blur iterations: 2
+Blur spread: 5.08
+
+--------------------------
+scene_03
+
+1. Bloom
+Quality: Hight
+Mode: Basic
+Blend: Add
+HDR: Auto
+Intensity: 0.5
+Threshold: 0.6
+Blur Iterations: 2
+Sample Distance: 2.5
+
+2. Bloom Optimized
+Treshold: 0.1
+Intensity: 0.2
+Blur Size: 5.5
+Blur Iterations: 4
+Blur Type: Standard
+Fast Bloom Shader Hidden/FastBloom
+
+3. Vignette And Chromatic Aberration
+Vignetting: 0.264
+Blurred Corners: 0
+Aberation: Simple
+Chromatic Aberration: 0.2
+
+4. Bloom
+Quality: Hight
+Mode: Basic
+Blend: Add
+HDR: Auto
+Intensity: 1.14
+Threshold: 0.67
+Blur Iterations: 4
+Sample Distance: 0.44
+
+5. Sun Shafts
+Rely on Z Buffer? YES (check)
+Resolution: Normal
+Blend mode: Screen
+Shafts caster Non (Transform)
+Threshold color: #4D448BFF
+Shafts color: #C5470EFF
+Distance falloff: 0.339
+Blur size: 2.18
+Blur iterations: 2
+Intensity: 0.87
+
+
+--------------------------
+scene_04
+
+1. Bloom
+Quality: Hight
+Mode: Basic
+Blend: Add
+HDR: Auto
+Intensity: 0.15
+Threshold: 0.6
+Blur Iterations: 2
+Sample Distance: 2.5
+
+2. Bloom Optimized
+Treshold: 0.1
+Intensity: 0.2
+Blur Size: 5.5
+Blur Iterations: 4
+Blur Type: Standard
+Fast Bloom Shader Hidden/FastBloom
+
+3. Vignette And Chromatic Aberration
+Vignetting: 0.264
+Blurred Corners: 0
+Aberation: Simple
+Chromatic Aberration: 0.2
+
+4. Bloom
+Quality: Hight
+Mode: Basic
+Blend: Add
+HDR: Auto
+Intensity: 0.38
+Threshold: 0.67
+Blur Iterations: 4
+Sample Distance: 0.44
+
+5. Sun Shafts
+Rely on Z Buffer? YES (check)
+Resolution: Normal
+Blend mode: Screen
+Shafts caster Non (Transform)
+Threshold color: #6C6983FF
+Shafts color: #C5470EFF
+Distance falloff: 0.184
+Blur size: 1
+Blur iterations: 1
+Intensity: 0.79

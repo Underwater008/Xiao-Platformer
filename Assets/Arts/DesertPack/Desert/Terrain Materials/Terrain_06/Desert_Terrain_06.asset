@@ -1,0 +1,150 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3cfe511f5ae84c24e82fbf88db7e24ae, type: 3}
+  m_Name: Desert_Terrain_06
+  m_EditorClassIdentifier: 
+  _fillMaterial: {fileID: 2100000, guid: f54b9c0b7490b0542b1984e4361fdf7d, type: 2}
+  _edgeMaterial: {fileID: 2100000, guid: 2bf73d8e99b72b34bb17435d1c10bd35, type: 2}
+  _descriptors:
+  - applyTo: 0
+    zOffset: -0.01
+    yOffset: -1
+    leftCap:
+      x: 0
+      y: 0
+      width: 0.12792969
+      height: 0.21484375
+    innerLeftCap:
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    rightCap:
+      x: 0.8720703
+      y: 0
+      width: 0.12792969
+      height: 0.21484375
+    innerRightCap:
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    body:
+    - x: 0.12792969
+      y: 0
+      width: 0.3720703
+      height: 0.21484375
+    - x: 0.5
+      y: 0
+      width: 0.3720703
+      height: 0.21484375
+    capOffset: -0.55
+  - applyTo: 1
+    zOffset: 0.01
+    yOffset: 0.17
+    leftCap:
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    innerLeftCap:
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    rightCap:
+      x: 1
+      y: 0
+      width: 0
+      height: 0
+    innerRightCap:
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    body:
+    - x: 0
+      y: 0.234375
+      width: 0.5
+      height: 0.12207031
+    - x: 0.5
+      y: 0.234375
+      width: 0.5
+      height: 0.12207031
+    capOffset: 0.06
+  - applyTo: 2
+    zOffset: 0.01
+    yOffset: 0.1
+    leftCap:
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    innerLeftCap:
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    rightCap:
+      x: 1
+      y: 0
+      width: 0
+      height: 0
+    innerRightCap:
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    body:
+    - x: 0
+      y: 0.43066406
+      width: 0.5
+      height: 0.123046875
+    - x: 0.5
+      y: 0.43066406
+      width: 0.5
+      height: 0.123046875
+    capOffset: -0.07
+  - applyTo: 3
+    zOffset: 0
+    yOffset: 0.26
+    leftCap:
+      x: 0.025390625
+      y: 0.80078125
+      width: 0.08691406
+      height: 0.13574219
+    innerLeftCap:
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    rightCap:
+      x: 0.12597656
+      y: 0.8017578
+      width: 0.087890625
+      height: 0.13574219
+    innerRightCap:
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    body:
+    - x: 0
+      y: 0.6279297
+      width: 0.5
+      height: 0.13378906
+    - x: 0.5
+      y: 0.6279297
+      width: 0.5
+      height: 0.13378906
+    capOffset: -0.42
+  isPixel: 0
